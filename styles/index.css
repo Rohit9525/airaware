@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  
+}
+
+div.quote{
+  margin-right: 30%;
+  margin-left: 30%;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Londrina Shadow', cursive;
+  margin-bottom: 5%;
+}
+
+div.navbar
+{
+  background-color: rgba(0, 0, 0, 0.874);
+  position: fixed;
+  justify-content: space-around;
+  font-family: 'Alkatra', cursive;
+  
+}
+.navbar ul li
+{
+  overflow: auto;
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  
+  font-size: larger;
+  text-decoration: none;
+
+  
+
+}
+.navbar ul{
+  margin-right: 0px;
+  
+  padding-left: 835px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+.navbar a:hover
+{
+  background-color: rgba(117, 118, 117, 0.707);
+  border-radius: 5px;
+}
+div.header
+{
+  
+  padding-top: 200px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 100px;
+
+  font-family: 'Londrina Shadow', cursive;
+  
+
+}
+
+div.content
+{
+  
+  padding-left: 300px;
+  padding-right: 300px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Alkatara', cursive;
+}
+
+
+/* text above slideshow */
+div.above_image
+{
+  margin-top: 10%;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-left:300px;
+  padding-right:300px;
+  font-family: 'Alkatra', cursive;
+}
+
+
+/* all the new css goes here */
+
+/* Newsletter */
+
+.newsletter{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newstext h2{
+  margin-top: 100px;
+  font-size: 38px;
+}
+
+.newstext p{
+  font-size: 20px;
+  color: #4c4c4c;
+}
+
+.newsletter form{
+  margin-top: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.newsletter form input:first-child{
+  display: inline-block;
+  /* width: 300px; */
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 150px 20px 30px;
+  box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+}
+
+.newsletter form input:last-child{
+  display: inline-block;
+  position: absolute;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(11, 162, 16);
+  padding: 14px 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 450;
+  top: 6px;
+  right: 6px;
+  transition: ease 0.30s;
+}
+
+.newsletter form input:last-child:hover{
+  border: 2px solid rgb(11, 162, 16);
+  background-color: white;
+  color: rgb(21, 74, 74);
+}
+
+
+.footer{
+  margin-top: 80px;
+  background-color: gray;
+}
+
+.foot{
+  padding: 20px 0;
+}
+
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.footlinks h4{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.footlinks h4::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background: white;
+}
+
+.footlinks ul li{
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+  font-size: 17px;
+  color: #dddddd;
+  display: block;
+  transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+  transform: translate(6px);
+  color: white;
+}
+
+.social a{
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.30s;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+}
+
+.end{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p{
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+
+}
+
+
+/* 
+
+content style
+
+*/
+div.airpollution
+{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: 'Alkatra',cursive;
+}
+div.airpollution h1,h2,ul,p
+{
+  text-align: center;
+
+
+}
+div.airpollution ul
+{
+  list-style-type: none;
+}
+div.airpollution ul li
+{
+  font-size: 20px;
+}

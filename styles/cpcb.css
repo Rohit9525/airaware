@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+*{
+
+  
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  
+}
+div.navbar
+{
+  background-color: rgba(0, 0, 0, 0.874);
+  position: fixed;
+  justify-content: space-around;
+  font-family: 'Alkatra',cursive;
+}
+.navbar ul li
+{
+  overflow: auto;
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  
+  font-size: larger;
+  text-decoration: none;
+
+  
+
+}
+.navbar ul{
+  margin-right: 0px;
+  
+  padding-left: 835px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+.navbar a:hover
+{
+  background-color: rgba(117, 118, 117, 0.707);
+  border-radius: 5px;
+}
+
+
+
+
+/* applying grid properties here it to items */
+div.header
+{
+  padding: 100px;
+  font-family: 'Londrina Shadow', cursive;
+}
+
+
+
+div.header h1
+{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Londrina Shadow', cursive;
+    padding-top: 10px;
+
+}
+div.content
+{
+    border: dashed 2px black;
+    border-radius: 2px;
+    margin-left:200px;
+    margin-right: 200px;
+    padding: 100px;
+}
+div.content h2{
+    text-align: center;
+}
+
+
+
+.footer{
+  margin-top: 80px;
+  background-color: rgb(21, 74, 74);
+}
+
+.foot{
+  padding: 20px 0;
+}
+
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.footlinks h4{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.footlinks h4::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background: white;
+}
+
+.footlinks ul li{
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+  font-size: 17px;
+  color: #dddddd;
+  display: block;
+  transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+  transform: translate(6px);
+  color: white;
+}
+
+.social a{
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.30s;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+}
+
+.end{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p{
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
